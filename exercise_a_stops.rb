@@ -19,20 +19,19 @@ stops.delete("Livingston")
 stops.delete_at(2)
 
 # 7. How many stops there are in the array?
-p stops.length
+stops.length
 
 # 8. How many ways can we return `"Falkirk High"` from the array?
-p stops.fetch(2)
-p stops[2]
-p stops.sample(1) #could get returned randomly
+stops.fetch(2)
+stops[2]
+stops[-5]
+stops.sample(1) #could get returned randomly
 
 # 9. Reverse the positions of the stops in the array
-p stops.reverse
+stops.reverse
 
 # 10. Print out all the stops using a for loop
 
-for stop in stops
+loop_stops = for stop in stops
   puts stop
 end
-
-p stops
