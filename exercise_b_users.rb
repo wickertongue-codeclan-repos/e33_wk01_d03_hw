@@ -71,9 +71,7 @@ users["Avril"][:pets][0][:species]
 users["Erik"][:lottery_numbers][2]
 
 # 6. Return an array of Avril's lottery numbers that are even
-users["Avril"][:lottery_numbers][0][1][4]
 
-#or
 for lottery_number in users["Avril"][:lottery_numbers]
     p lottery_number if lottery_number.even?
 end
