@@ -31,7 +31,6 @@ stops.sample(1) #could get returned randomly
 stops.reverse
 
 # 10. Print out all the stops using a for loop
-
 loop_stops = for stop in stops
   puts stop
 end
